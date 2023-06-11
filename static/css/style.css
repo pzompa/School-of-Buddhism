@@ -15,10 +15,27 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    
 }
-
 
 main {
     flex: 1 0 auto;
 }
 
+/*Footer*/
+
+footer {
+    flex-shrink: 0;
+    background-color: offwhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+
+}
+
+.social-icon {
+    height: 2.5rem;
+    margin: 1rem;
+}
